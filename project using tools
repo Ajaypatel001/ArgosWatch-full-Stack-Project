@@ -1,0 +1,74 @@
+AWS & DevOps Tools Used in Project
+🔹 Introduction
+
+In this project, we use AWS and DevOps tools to build, deploy, and manage the application efficiently. These tools help in automation, scalability, and reliability.
+
+☁️ AWS Services (What we will use in AWS)
+1️⃣ EC2 (Elastic Compute Cloud)
+
+👉 Used to create virtual servers
+👉 Runs backend and deployment setup
+
+2️⃣ ECR (Elastic Container Registry)
+
+👉 Used to store Docker images
+👉 Provides secure image management
+
+3️⃣ EKS (Elastic Kubernetes Service)
+
+👉 Used to create and manage Kubernetes clusters
+👉 Deploys the application in containerized form
+
+4️⃣ RDS (Relational Database Service)
+
+👉 Used to host MySQL database
+👉 Stores application data securely
+
+5️⃣ S3 (Simple Storage Service)
+
+👉 Used to store static files like images, videos, and documents
+
+6️⃣ IAM (Identity and Access Management)
+
+👉 Used to manage users and roles
+👉 Provides secure access control
+
+7️⃣ Load Balancer (ELB)
+
+👉 Distributes traffic across services
+👉 Ensures high availability
+
+8️⃣ CloudWatch (optional)
+
+👉 Used for monitoring and logging
+
+⚙️ DevOps Tools
+1️⃣ Docker
+
+👉 Used to containerize the application
+
+2️⃣ Kubernetes
+
+👉 Used to manage and scale containers
+
+3️⃣ Jenkins / GitHub Actions
+
+👉 Used for CI/CD pipeline
+
+4️⃣ ArgoCD
+
+👉 Used for continuous deployment
+
+5️⃣ Terraform
+
+👉 Used for Infrastructure as Code (automating AWS resources)
+
+6️⃣ SonarQube
+
+👉 Used for code quality analysis
+
+🔄 CI/CD Flow
+Code Push → Build → Docker Image → Push to ECR → Deploy to EKS → Access via Ingress
+🎯 Conclusion
+
+In this project, AWS and DevOps tools are used to create a scalable, secure, and automated system. This approach makes deployment faster and more efficient.
