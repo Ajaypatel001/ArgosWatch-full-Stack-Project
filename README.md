@@ -1,4 +1,4 @@
-# 🚀 AgroWatch DevOps Deployment Guide
+# 🚀DevOps Deployment Guide
 
 This document explains how to deploy the AgroWatch project using AWS, Jenkins, Docker, SonarQube, and MySQL (RDS).
 
