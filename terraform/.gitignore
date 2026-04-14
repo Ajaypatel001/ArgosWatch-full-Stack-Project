@@ -1,0 +1,67 @@
+# ==============================
+
+# Terraform .gitignore
+
+# ==============================
+
+# Local .terraform directories
+
+.terraform/
+
+# Terraform state files (VERY IMPORTANT 🚨)
+
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+
+crash.log
+crash.*.log
+
+# Sensitive variable files
+
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+
+*.tfplan
+
+# CLI configuration files
+
+.terraformrc
+terraform.rc
+
+# Lock file (optional)
+
+# Keep this if working in team for provider version consistency
+
+# Remove if you want flexibility
+
+.terraform.lock.hcl
+
+# OS-specific files
+
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+
+.vscode/
+.idea/
+
+# Logs
+
+*.log
+
+# Environment files
+
+.env
+.env.*

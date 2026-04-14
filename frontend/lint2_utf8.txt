@@ -1,0 +1,18 @@
+
+> agrowatch@0.0.0 lint
+> eslint .
+
+
+D:\major project 2\AgroWatch\frontend\src\pages\Admin.jsx
+  77:6  warning  React Hook useEffect has a missing dependency: 'fetchAdminData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\major project 2\AgroWatch\frontend\src\pages\MarketHistoryPage.jsx
+  12:5  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+  14:6  warning  React Hook useEffect has a missing dependency: 'fetchHistory'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\major project 2\AgroWatch\frontend\src\pages\Profile.jsx
+  143:13  error  'putRes' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+✖ 4 problems (1 error, 3 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
